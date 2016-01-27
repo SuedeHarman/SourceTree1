@@ -1,0 +1,19 @@
+public class variablesandfunctions : MonoBehavior;
+{
+	int myInt = 10;
+
+	void Start ()
+	{
+		myInt = PlusTwo(myInt);
+		Debug.Log (myInt);
+	}
+
+
+	int PlusTwo (int number)
+	{
+		int sum;
+		sum = number + 2;
+		return sum;
+	}
+}
+
